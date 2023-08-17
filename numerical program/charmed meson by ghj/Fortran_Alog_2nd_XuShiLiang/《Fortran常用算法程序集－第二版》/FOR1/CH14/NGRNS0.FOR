@@ -1,0 +1,16 @@
+
+	DOUBLE PRECISION R
+	DIMENSION A(50)
+	R=3.0
+	U=1.0
+	G=1.5
+	N=50
+	WRITE(*,*)
+	CALL NGRNS(U,G,R,N,A)
+	WRITE(*,20) (A(I),I=1,50)
+20	FORMAT(1X,5F10.6)
+	WRITE(*,*)
+	END
+
+
+

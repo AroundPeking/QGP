@@ -1,0 +1,14 @@
+
+	DIMENSION A(7),XR(6),XI(6),B(7)
+	DATA A/1.0,-5.0,3.0,1.0,-7.0,7.0,-20.0/
+	N=7
+	M=6
+	CALL DSRRT(A,XR,XI,N,M,L,B)
+	IF (L.NE.0) THEN
+	  DO 10 I=1,M
+10	  WRITE(*,20) I,XR(I),XI(I)
+	END IF
+20	FORMAT(1X,'X(',I2,1X,')=',E13.6,2X,'J',2X,E13.6)
+	END
+
+

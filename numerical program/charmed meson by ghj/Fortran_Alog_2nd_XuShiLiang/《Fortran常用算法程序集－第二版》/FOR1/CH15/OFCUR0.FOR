@@ -1,0 +1,20 @@
+
+
+	EXTERNAL F1,F2
+	CALL OFCUR(-1.0,1.0,0.1,0.02,'*','I',1,2,F1)
+	WRITE(*,*)
+	CALL OFCUR(0.0,3.1415926,0.1,0.04,'+','*',30,5,F2)
+	END
+
+	FUNCTION F1(X)
+	F1=1.0/(1.0+25.0*X*X)
+	RETURN
+	END
+
+	FUNCTION F2(X)
+	F2=SIN(2.0*X)
+	RETURN
+	END
+
+
+

@@ -1,0 +1,11 @@
+
+	DIMENSION A(4,4)
+	DOUBLE PRECISION A,DET
+	DATA A/3.0,5.0,11.0,5.0,-3.0,-5.0,8.0,-1.0,
+     *         -2.0,1.0,5.0,-3.0,4.0,8.0,-7.0,-1.0/
+	CALL BSDET(A,4,DET)
+	WRITE(*,10) DET
+10	FORMAT(1X,'DET=',D15.6)
+	END
+
+

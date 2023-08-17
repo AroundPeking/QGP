@@ -1,0 +1,7 @@
+Scan:
+ Tc:0.5-0.7(0.01),
+ Cc:2.0-3.0(0.1),
+ gamma0:2.2-2.2(0.1).
+Parameters(Tc, Cc, gamma0): 0.5, 3.0, 2.2 | Error: 3.14093092627097
+Parameters(Tc, Cc, gamma0): 0.51, 3.0, 2.2 | Error: 3.01399630752092
+Parameters(Tc, Cc, gamma0): 0.52, 3.0, 2.2 | Error: 2.8857308624465796

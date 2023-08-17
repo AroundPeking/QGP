@@ -1,0 +1,17 @@
+
+
+	INTEGER P(100),B,C
+	N=100
+	B=101
+	C=200
+	R=1.0
+	CALL NRABS(R,B,C,N,P)
+	WRITE(*,*)
+	WRITE(*,10)
+10	FORMAT(1X,'R:')
+	WRITE(*,20) (P(I),I=1,N)
+20	FORMAT(1X,10I6)
+	WRITE(*,*)
+	END
+
+

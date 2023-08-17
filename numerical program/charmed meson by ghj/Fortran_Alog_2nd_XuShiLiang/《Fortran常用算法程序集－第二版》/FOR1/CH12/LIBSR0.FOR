@@ -1,0 +1,33 @@
+
+
+	INTEGER B,C,X,P(100)
+	R=3.0
+	N=100
+	MM=30
+	NN=80
+	B=1
+	C=100
+	CALL NRABS(R,B,C,N,P)
+	WRITE(*,*)
+	WRITE(*,10)
+10	FORMAT(1X,'R:')
+	WRITE(*,20) (P(I),I=1,N)
+20	FORMAT(1X,10I6)
+	WRITE(*,*)
+	CALL LISHL(P,N,MM,NN)
+	WRITE(*,30)
+30	FORMAT(1X,'A:')
+	WRITE(*,20) (P(I),I=1,N)
+	WRITE(*,*)
+	X=23
+	CALL LIBSR(P,N,MM,NN,X,K)
+	WRITE(*,40) X,K
+40	FORMAT(1X,'X=',I6,3X,'K=',I4)
+	WRITE(*,*)
+	X=46
+	CALL LIBSR(P,N,MM,NN,X,K)
+	WRITE(*,40) X,K
+	WRITE(*,*)
+	END
+
+

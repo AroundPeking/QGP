@@ -1,0 +1,26 @@
+
+	SUBROUTINE FSIMP(A,B,F,EPS,T)
+	DOUBLE PRECISION A,B,F,T,H,T1,S1,P,X,T2,S2
+	N=1
+	H=B-A
+	T1=H*(F(A)+F(B))/2.0
+	S1=T1
+10	P=0.0
+	DO 20 K=0,N-1
+	  X=A+(K+0.5)*H
+	  P=P+F(X)
+20	CONTINUE
+	T2=(T1+H*P)/2.0
+	S2=(4*T2-T1)/3.0
+	IF (ABS(S2-S1).GE.EPS) THEN
+	  T1=T2
+	  N=N+N
+	  H=H/2.0
+	  S1=S2
+	  GOTO 10
+	END IF
+	T=S2
+	RETURN
+	END
+
+

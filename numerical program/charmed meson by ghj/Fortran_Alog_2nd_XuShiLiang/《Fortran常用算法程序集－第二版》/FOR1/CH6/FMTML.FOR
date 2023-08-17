@@ -1,0 +1,21 @@
+
+	SUBROUTINE FMTML(A,B,N,F,X,S)
+	DOUBLE PRECISION A(N),B(N),F,S,R,X(N),K
+	REAL M,NRND1
+	R=1.0D0
+	M=10000.0
+	K=10000.0D0
+	S=0.0D0
+10	IF (M+1.0.NE.1.0) THEN
+	  M=M-1.0
+	  DO 20 I=1,N
+	    X(I)=A(I)+(B(I)-A(I))*NRND1(R)
+20	  CONTINUE
+	  S=S+F(N,X)/K
+	  GOTO 10
+	END IF
+	DO 30 I=1,N
+30	S=S*(B(I)-A(I))
+	END
+
+

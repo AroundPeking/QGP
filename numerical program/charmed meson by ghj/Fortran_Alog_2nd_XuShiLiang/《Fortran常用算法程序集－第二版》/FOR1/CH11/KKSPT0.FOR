@@ -1,0 +1,16 @@
+
+
+	DIMENSION Y(9),YY(9)
+	DATA Y/54.0,145.0,227.0,359.0,401.0,342.0,
+     *         259.0,112.0,65.0/
+	N=9
+	CALL KKSPT(N,Y,YY)
+	WRITE(*,*)
+	WRITE(*,10)
+	WRITE(*,20) (I,Y(I),YY(I),I=1,N)
+	WRITE(*,*)
+10	FORMAT(1X,5X,'I',12X,'Y(I)',20X,'YY(I)')
+20	FORMAT(1X,4X,I2,6X,E15.6,9X,E15.6)
+	END
+
+

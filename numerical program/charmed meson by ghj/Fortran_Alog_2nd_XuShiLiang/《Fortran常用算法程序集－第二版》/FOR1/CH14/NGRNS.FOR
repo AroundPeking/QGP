@@ -1,0 +1,23 @@
+
+
+	SUBROUTINE NGRNS(U,G,R,N,A)
+	DOUBLE PRECISION R,S,W,V,T
+	DIMENSION A(N)
+	S=65536.0
+	W=2053.0
+	V=13849.0
+	DO 20 J=1,N
+	  T=0.0
+	  DO 10 I=1,12
+	    R=W*R+V
+	    M=R/S
+	    R=R-M*S
+	    T=T+R/S
+10	  CONTINUE
+	  A(J)=U+G*(T-6.0)
+20	CONTINUE
+	RETURN
+	END
+
+
+

@@ -1,0 +1,11 @@
+
+	DOUBLE PRECISION P(6),Q(4),S(9)
+	DATA P/4.0,-6.0,5.0,2.0,-1.0,3.0/
+	DATA Q/2.0,3.0,-6.0,2.0/
+	CALL OPMUL(P,6,Q,4,S,9)
+	DO 10 I=1,9
+10	WRITE(*,100) I,S(I)
+100	FORMAT(1X,'S(',I2,')=',D13.6)
+	END
+
+

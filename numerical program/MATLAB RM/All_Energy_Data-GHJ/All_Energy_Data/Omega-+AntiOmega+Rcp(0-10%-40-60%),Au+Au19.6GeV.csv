@@ -1,0 +1,15 @@
+#: table_doi: 10.17182/hepdata.94313.v1/t293
+#: name: Omega-+AntiOmega+ Rcp(0-10%/40-60%), Au+Au 19.6 GeV
+#: description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+#: data_file: fig28_omega_auau19.yaml
+#: keyword reactions: Au+Au
+#: keyword observables: Rcp
+#: keyword cmenergies: 19.6
+#: particles,Omega-+AntiOmega+
+pT [GeV/c],Rcp,stat +,stat -
+1.012,1.49,0.32,-0.32
+1.3954,1.58,0.22,-0.22
+1.7895,1.84,0.25,-0.25
+2.1864,1.95,0.31,-0.31
+2.5846,2.73,0.64,-0.64
+

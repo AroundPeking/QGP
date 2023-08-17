@@ -1,0 +1,29 @@
+
+
+	SUBROUTINE KFOUR(F,N1,N2,A,B)
+	DIMENSION F(N2),A(N1),B(N1)
+	DOUBLE PRECISION F,A,B,C,S,T,C1,S1,U1,U2,U0
+	T=6.283185306/N2
+	C=COS(T)
+	S=SIN(T)
+	T=2.0/N2
+	C1=1.0
+	S1=0.0
+	DO 20 I=1,N1
+	  U1=0.0
+	  U2=0.0
+	  DO 10 J=N2,2,-1
+	    U0=F(J)+2.0*C1*U1-U2
+	    U2=U1
+	    U1=U0
+10        CONTINUE
+	  A(I)=T*(F(1)+U1*C1-U2)
+	  B(I)=T*U1*S1
+	  U0=C*C1-S*S1
+	  S1=C*S1+S*C1
+	  C1=U0
+20	CONTINUE
+	RETURN
+	END
+
+

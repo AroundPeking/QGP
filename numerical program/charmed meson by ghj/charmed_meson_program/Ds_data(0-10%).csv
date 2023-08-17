@@ -1,0 +1,12 @@
+#: table_doi: 10.17182/hepdata.101172.v1/t2
+#: name: Figure 1b (0-10%)
+#: description: $D_s^{\pm}$ invariant yield as a function of $p_{T}$ in 0-10% centrality bin of Au+Au collisions at $\sqrt{s_{_{\rm NN}}}$ = 200 GeV. The $p_T$ bins are 1.5 < $p_T$ < 2.5 GeV/c, 2.5 < $p_T$ < 3.5 GeV/c, 3.5 < $p_T$ < 5.0 GeV/c and 5.0 < $p_T$ < 8.0 GeV/c.
+#: data_file: TableDs_2.yaml
+#: keyword reactions: AU AU --> CHARGED X
+#: keyword cmenergies: 200
+$p_{T}$ position,$D_{s}$ invariant yields,$stat$ +,$stat$ -,$sys$ +,$sys$ -
+1.951,0.005093,0.0008174,-0.0008174,0.001119,-0.001119
+2.935,0.0008856,7.784e-05,-7.784e-05,0.0001675,-0.0001694
+4.116,0.0001071,8.139e-06,-8.139e-06,1.221e-05,-1.393e-05
+6.09,4.847e-06,6.124e-07,-6.124e-07,4.877e-07,6.721e-07
+

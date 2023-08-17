@@ -1,0 +1,16 @@
+#: table_doi: 10.17182/hepdata.94313.v1/t204
+#: name: Phi <mT>-m0, Au+Au 11.5 GeV
+#: description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+#: data_file: fig15_phi_auau11.yaml
+#: keyword reactions: Au+Au
+#: keyword observables: Phi <mT>-m0
+#: keyword cmenergies: 11.5
+#: particles,Phi
+<Npart>,<mT>-m0 [GeV^2/c^2],stat +,stat -,sys +,sys -
+20.1,0.2469,0.0083,-0.0083,0.0052,-0.0052
+58.5,0.2488,0.0068,-0.0068,0.0055,-0.0055
+110.0,0.2861,0.0079,-0.0079,0.0039,-0.0039
+159.6,0.2955,0.0079,-0.0079,0.0049,-0.0049
+226.0,0.3268,0.008,-0.008,0.0042,-0.0042
+313.7,0.3205,0.0094,-0.0094,0.0014,-0.0014
+

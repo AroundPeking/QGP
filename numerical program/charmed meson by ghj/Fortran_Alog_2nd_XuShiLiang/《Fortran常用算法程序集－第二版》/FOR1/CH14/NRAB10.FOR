@@ -1,0 +1,17 @@
+
+
+	INTEGER B,C,P(100)
+	B=101
+	C=200
+	R=5.0
+	DO 10 I=1,100
+10	P(I)=NRAB1(R,B,C)
+	WRITE(*,*)
+	WRITE(*,100)
+100	FORMAT(1X,'R:')
+	WRITE(*,200) (P(I),I=1,100)
+200	FORMAT(1X,10I6)
+	WRITE(*,*)
+	END
+
+

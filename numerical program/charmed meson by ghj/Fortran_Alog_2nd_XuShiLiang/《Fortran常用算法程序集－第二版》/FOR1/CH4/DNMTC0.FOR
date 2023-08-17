@@ -1,0 +1,25 @@
+
+	EXTERNAL F
+	DIMENSION X(3),Y(3)
+	DATA X/3*0.0/
+	B=2.0
+	N=3
+	M=10
+	EPS=1.0E-5
+	CALL DNMTC(X,N,B,M,EPS,F,Y)
+	WRITE(*,*)
+	DO 10 I=1,N
+10	WRITE(*,100) I,X(I)
+	WRITE(*,*)
+100	FORMAT(5X,'X(',I2,1X,')=',E13.6)
+	END
+
+	FUNCTION F(X,N)
+	DIMENSION X(N)
+	F1=3*X(1)+X(2)+2*X(3)*X(3)-3.0
+	F2=-3*X(1)+5*X(2)*X(2)+2*X(1)*X(3)-1
+	F3=25*X(1)*X(2)+20*X(3)+12
+	F=SQRT(F1*F1+F2*F2+F3*F3)
+	END
+
+

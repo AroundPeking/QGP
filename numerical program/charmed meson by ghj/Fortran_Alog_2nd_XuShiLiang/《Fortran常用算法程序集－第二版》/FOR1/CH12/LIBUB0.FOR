@@ -1,0 +1,24 @@
+
+
+	INTEGER B,C,P(100)
+	N=100
+	MM=30
+	NN=80
+	R=3.0
+	B=1
+	C=100
+	CALL NRABS(R,B,C,N,P)
+	WRITE(*,*)
+	WRITE(*,10)
+10	FORMAT(1X,'R:')
+	WRITE(*,20) (P(I),I=1,N)
+20	FORMAT(1X,10I6)
+	WRITE(*,*)
+	CALL LIBUB(P,N,MM,NN)
+	WRITE(*,30)
+30	FORMAT(1X,'A:')
+	WRITE(*,20) (P(I),I=1,N)
+	WRITE(*,*)
+	END
+
+

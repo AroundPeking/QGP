@@ -1,0 +1,17 @@
+#: table_doi: 10.17182/hepdata.94313.v1/t187
+#: name: AntiLambda <mT>-m0, Au+Au 27 GeV
+#: description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+#: data_file: fig13_lambdabar_auau27.yaml
+#: keyword reactions: Au+Au
+#: keyword observables: AntiLambda <mT>-m0
+#: keyword cmenergies: 27
+#: particles,AntiLambda
+<Npart>,<mT>-m0 [GeV^2/c^2],stat +,stat -,sys +,sys -
+20.5,0.2383,0.0011,-0.0011,0.0059,-0.0059
+61.2,0.2985,0.0009,-0.0009,0.0045,-0.0045
+114.0,0.3387,0.001,-0.001,0.005,-0.005
+165.5,0.3586,0.0008,-0.0008,0.0048,-0.0048
+233.6,0.3814,0.0008,-0.0008,0.0054,-0.0054
+299.3,0.3945,0.0011,-0.0011,0.0056,-0.0056
+343.3,0.4055,0.0011,-0.0011,0.0053,-0.0053
+

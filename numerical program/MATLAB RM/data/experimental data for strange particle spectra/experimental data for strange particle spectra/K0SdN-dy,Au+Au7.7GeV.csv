@@ -1,0 +1,17 @@
+#: table_doi: 10.17182/hepdata.94313.v1/t216
+#: name: K0S dN/dy, Au+Au 7.7 GeV
+#: description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+#: data_file: fig17_k0s_auau7.yaml
+#: keyword reactions: Au+Au
+#: keyword observables: K0S dN/dy
+#: keyword cmenergies: 7.7
+#: particles,K0S
+<Npart>,dN/dy,stat +,stat -,sys +,sys -
+20.2,0.343,0.006,-0.006,0.012,-0.012
+58.4,1.47,0.019,-0.019,0.048,-0.048
+109.9,3.25,0.04,-0.04,0.1,-0.1
+160.2,5.03,0.05,-0.05,0.17,-0.17
+226.2,7.52,0.06,-0.06,0.26,-0.26
+290.4,9.98,0.1,-0.1,0.35,-0.35
+337.4,12.67,0.12,-0.12,0.44,-0.44
+

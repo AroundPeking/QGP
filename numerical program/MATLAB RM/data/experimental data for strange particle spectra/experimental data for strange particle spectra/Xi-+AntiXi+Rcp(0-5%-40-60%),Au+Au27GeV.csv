@@ -1,0 +1,19 @@
+#: table_doi: 10.17182/hepdata.94313.v1/t297
+#: name: Xi-+AntiXi+ Rcp(0-5%/40-60%), Au+Au 27 GeV
+#: description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+#: data_file: fig28_xi_auau27.yaml
+#: keyword reactions: Au+Au
+#: keyword observables: Rcp
+#: keyword cmenergies: 27
+#: particles,Xi-+AntiXi+
+pT [GeV/c],Rcp,stat +,stat -,sys +,sys -
+0.7996,0.865,0.02,-0.02,0.083,-0.083
+1.1456,1.047,0.018,-0.018,0.068,-0.068
+1.443,1.25,0.02,-0.02,0.079,-0.079
+1.7411,1.441,0.024,-0.024,0.094,-0.094
+2.0398,1.56,0.03,-0.03,0.11,-0.11
+2.3793,1.65,0.03,-0.03,0.13,-0.13
+2.8525,1.68,0.05,-0.05,0.12,-0.12
+3.5161,1.49,0.12,-0.12,0.1,-0.1
+4.3724,1.55,0.33,-0.33,0.11,-0.11
+

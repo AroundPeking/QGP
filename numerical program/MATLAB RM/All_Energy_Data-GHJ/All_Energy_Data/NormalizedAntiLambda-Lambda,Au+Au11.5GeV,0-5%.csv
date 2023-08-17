@@ -1,0 +1,23 @@
+#: table_doi: 10.17182/hepdata.94313.v1/t278
+#: name: Normalized AntiLambda/Lambda, Au+Au 11.5 GeV, 0-5%
+#: description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+#: data_file: fig22_auau11_cent6.yaml
+#: keyword reactions: Au+Au
+#: keyword observables: Normalized AntiLambda/Lambda
+#: keyword cmenergies: 11.5
+#: Centrality,0-5%
+pT [GeV/c],Normalized AntiLambda/Lambda,stat +,stat -
+0.5018,0.762,0.047,-0.047
+0.7005,0.753,0.03,-0.03
+0.8994,0.836,0.03,-0.03
+1.0982,0.887,0.031,-0.031
+1.2972,0.921,0.036,-0.036
+1.4962,1.046,0.041,-0.041
+1.6945,0.997,0.046,-0.046
+1.8942,0.957,0.055,-0.055
+2.1366,0.962,0.055,-0.055
+2.4361,0.93,0.078,-0.078
+2.7748,1.01,0.12,-0.12
+3.1744,0.7,0.2,-0.2
+3.6098,1.06,0.41,-0.41
+

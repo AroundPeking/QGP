@@ -1,0 +1,18 @@
+
+	EXTERNAL F
+	X=0.5
+	B=1.0
+	M=10
+	EPS=1.0E-5
+	CALL DMTCL(X,B,M,EPS,F)
+	WRITE(*,*)
+	WRITE(*,100) X
+	WRITE(*,*)
+100	FORMAT(5X,'X=',E13.6)
+	END
+
+	FUNCTION F(X)
+	F=EXP(-X*X*X)-TAN(X)+800.0
+	END
+
+

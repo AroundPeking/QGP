@@ -1,0 +1,17 @@
+#: table_doi: 10.17182/hepdata.94313.v1/t226
+#: name: AntiLambda dN/dy, Au+Au 11.5 GeV
+#: description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+#: data_file: fig17_lambdabar_auau11.yaml
+#: keyword reactions: Au+Au
+#: keyword observables: AntiLambda dN/dy
+#: keyword cmenergies: 11.5
+#: particles,AntiLambda
+<Npart>,dN/dy,stat +,stat -,sys +,sys -
+20.1,0.037,0.0007,-0.0007,0.003,-0.003
+58.5,0.1318,0.0017,-0.0017,0.0076,-0.0076
+110.0,0.239,0.003,-0.003,0.015,-0.015
+159.6,0.333,0.004,-0.004,0.02,-0.02
+226.0,0.441,0.004,-0.004,0.029,-0.029
+290.6,0.532,0.008,-0.008,0.039,-0.039
+338.2,0.659,0.009,-0.009,0.047,-0.047
+

@@ -1,0 +1,17 @@
+#: table_doi: 10.17182/hepdata.94313.v1/t220
+#: name: AntiXi+ dN/dy, Au+Au 7.7 GeV
+#: description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+#: data_file: fig17_xibar_auau7.yaml
+#: keyword reactions: Au+Au
+#: keyword observables: AntiXi+ dN/dy
+#: keyword cmenergies: 7.7
+#: particles,AntiXi+
+<Npart>,dN/dy,stat +,stat -,sys +,sys -
+20.2,0.00142,0.00032,-0.00032,0.0001,-0.0001
+58.4,0.00683,0.00063,-0.00063,0.00046,-0.00046
+109.9,0.0157,0.0011,-0.0011,0.0013,-0.0013
+160.2,0.0218,0.0015,-0.0015,0.0018,-0.0018
+226.2,0.035,0.0019,-0.0019,0.0026,-0.0026
+290.4,0.0526,0.0035,-0.0035,0.0046,-0.0046
+337.4,0.0657,0.0044,-0.0044,0.0068,-0.0068
+

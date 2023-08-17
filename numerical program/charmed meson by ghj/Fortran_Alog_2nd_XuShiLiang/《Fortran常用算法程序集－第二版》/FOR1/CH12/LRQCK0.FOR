@@ -1,0 +1,29 @@
+
+
+	INTEGER B,C,P(100),M(30)
+	DIMENSION A(100)
+	N=100
+	MM=30
+	NN=80
+	R=5.0
+	B=1
+	C=100
+	CALL NRABS(R,B,C,N,P)
+	WRITE(*,*)
+	DO 5 I=1,N
+5	A(I)=P(I)
+	WRITE(*,10)
+10	FORMAT(1X,'R:')
+	WRITE(*,20) (A(I),I=1,N)
+20	FORMAT(1X,10F6.1)
+	WRITE(*,*)
+	CALL LRQCK(A,N,MM,NN,M,30,L)
+	IF (L.NE.0) THEN
+	  WRITE(*,30)
+30	  FORMAT(1X,'A:')
+	  WRITE(*,20) (A(I),I=1,N)
+	END IF
+	WRITE(*,*)
+	END
+
+

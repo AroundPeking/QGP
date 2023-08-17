@@ -1,0 +1,18 @@
+#: table_doi: 10.17182/hepdata.94313.v1/t113
+#: name: Xi- pT spectrum, Au+Au 11.5 GeV, 60-80%
+#: description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+#: data_file: fig8_xi_auau11_cent0.yaml
+#: keyword reactions: Au+Au
+#: keyword observables: Xi- pT spectrum
+#: keyword cmenergies: 11.5
+#: Centrality,,,60-80%
+pT [GeV/c],pT [GeV/c] LOW,pT [GeV/c] HIGH,d^2N/(2*pi*Nevt*pT*dy*dpT) [c^2/GeV^2],stat +,stat -,sys +,sys -
+0.7887,0.6,1.0,0.003782,0.00027,-0.00027,0.000268,-0.000268
+1.1393,1.0,1.3,0.0011943,7.52e-05,-7.52e-05,8.92e-05,-8.92e-05
+1.4371,1.3,1.6,0.0004068,2.97e-05,-2.97e-05,2.9e-05,-2.9e-05
+1.7357,1.6,1.9,0.0001322,1.38e-05,-1.38e-05,9.8e-06,-9.8e-06
+2.0347,1.9,2.2,3.581e-05,5.62e-06,-5.62e-06,2.85e-06,-2.85e-06
+2.3724,2.2,2.6,9.94e-06,2e-06,-2e-06,6.7e-07,-6.7e-07
+2.8369,2.6,3.2,8.47e-07,4.57e-07,-4.57e-07,6.2e-08,-6.2e-08
+3.4885,3.2,4.0,1.96e-07,1.39e-07,-1.39e-07,1.5e-08,-1.5e-08
+

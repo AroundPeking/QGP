@@ -1,0 +1,4 @@
+1.程序能否计算反粒子，还有Xi-,Xi+，Omega+-如何计算
+2.dN/p_t dp_t与d^2N/2pi dy p_t dp_t,
+                         d^2N/(2*pi*Nevt*pT*dy*dpT)如何换算,程序中用的是dN/p_t dp_t
+3.

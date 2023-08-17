@@ -1,0 +1,27 @@
+
+
+	INTEGER B,C,P(100)
+	DIMENSION A(100)
+	N=100
+	MM=30
+	NN=80
+	R=3.0
+	B=1
+	C=100
+	CALL NRABS(R,B,C,N,P)
+	DO 5 I=1,N
+5	A(I)=P(I)
+	WRITE(*,*)
+	WRITE(*,10)
+10	FORMAT(1X,'R:')
+	WRITE(*,20) (A(I),I=1,N)
+20	FORMAT(1X,10F6.1)
+	WRITE(*,*)
+	CALL LRBUB(A,N,MM,NN)
+	WRITE(*,30)
+30	FORMAT(1X,'A:')
+	WRITE(*,20) (A(I),I=1,N)
+	WRITE(*,*)
+	END
+
+

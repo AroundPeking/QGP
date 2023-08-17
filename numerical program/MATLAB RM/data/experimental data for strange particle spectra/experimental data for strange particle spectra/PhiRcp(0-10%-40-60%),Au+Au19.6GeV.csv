@@ -1,0 +1,21 @@
+#: table_doi: 10.17182/hepdata.94313.v1/t294
+#: name: Phi Rcp(0-10%/40-60%), Au+Au 19.6 GeV
+#: description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+#: data_file: fig28_phi_auau19.yaml
+#: keyword reactions: Au+Au
+#: keyword observables: Rcp
+#: keyword cmenergies: 19.6
+#: particles,Phi
+pT [GeV/c],Rcp,stat +,stat -
+0.4457,0.684,0.096,-0.096
+0.5494,0.679,0.052,-0.052
+0.6535,0.72,0.045,-0.045
+0.8033,0.771,0.025,-0.025
+0.9501,0.848,0.037,-0.037
+1.1463,0.97,0.039,-0.039
+1.4869,1.153,0.08,-0.08
+1.8407,1.31,0.24,-0.24
+2.2211,1.13,0.21,-0.21
+2.7186,0.96,0.25,-0.25
+3.3745,0.99,0.46,-0.46
+

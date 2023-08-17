@@ -1,0 +1,17 @@
+#: table_doi: 10.17182/hepdata.94313.v1/t269
+#: name: AntiXi+/Xi-, Au+Au 39 GeV
+#: description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+#: data_file: fig20_xibarxi_auau39.yaml
+#: keyword reactions: Au+Au
+#: keyword observables: AntiXi+/Xi-
+#: keyword cmenergies: 39
+#: particles,AntiXi+/Xi-
+<Npart>,Bbar/B,stat +,stat -,sys +,sys -
+20.0,0.678,0.013,-0.013,0.024,-0.024
+59.2,0.622,0.006,-0.006,0.022,-0.022
+111.4,0.573,0.006,-0.006,0.02,-0.02
+162.4,0.546,0.004,-0.004,0.02,-0.02
+229.8,0.517,0.004,-0.004,0.021,-0.021
+293.9,0.506,0.005,-0.005,0.018,-0.018
+341.7,0.505,0.005,-0.005,0.018,-0.018
+

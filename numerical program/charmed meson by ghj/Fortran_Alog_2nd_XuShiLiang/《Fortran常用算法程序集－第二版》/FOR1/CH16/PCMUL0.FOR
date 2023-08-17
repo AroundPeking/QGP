@@ -1,0 +1,12 @@
+
+	DOUBLE PRECISION A,B,C,D,E,F
+	A=-1.3
+	B=4.5
+	C=7.6
+	D=3.6
+	CALL PCMUL(A,B,C,D,E,F)
+	WRITE(*,10) E,F
+10	FORMAT(1X,D13.6,'+j',D13.6)
+	END
+
+

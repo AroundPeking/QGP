@@ -1,0 +1,18 @@
+
+	SUBROUTINE DATKN(X,EPS,F,L)
+	DOUBLE PRECISION X,F,U,V
+	M=L
+	L=0
+10	L=L+1
+	U=F(X)
+	V=F(U)
+	IF (ABS(U-V).LT.EPS*1.0D0) THEN
+	  X=V
+	ELSE
+	  X=V-(V-U)*(V-U)/(V-2.0*U+X)
+	  IF (L.NE.M) GOTO 10
+	END IF
+	RETURN
+	END
+
+

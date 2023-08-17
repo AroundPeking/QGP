@@ -1,0 +1,14 @@
+#: table_doi: 10.17182/hepdata.94313.v1/t267
+#: name: AntiOmega+/Omega-, Au+Au 27 GeV
+#: description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+#: data_file: fig20_ombarom_auau27.yaml
+#: keyword reactions: Au+Au
+#: keyword observables: AntiOmega+/Omega-
+#: keyword cmenergies: 27
+#: particles,AntiOmega+/Omega-
+<Npart>,Bbar/B,stat +,stat -,sys +,sys -
+61.2,0.787,0.089,-0.089,0.039,-0.039
+139.6,0.76,0.049,-0.049,0.038,-0.038
+233.6,0.589,0.046,-0.046,0.029,-0.029
+319.3,0.63,0.045,-0.045,0.031,-0.031
+

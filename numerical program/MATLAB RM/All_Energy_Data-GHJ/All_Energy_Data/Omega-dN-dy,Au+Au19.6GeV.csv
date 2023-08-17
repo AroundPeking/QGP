@@ -1,0 +1,14 @@
+#: table_doi: 10.17182/hepdata.94313.v1/t238
+#: name: Omega- dN/dy, Au+Au 19.6 GeV
+#: description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+#: data_file: fig17_omega_auau19.yaml
+#: keyword reactions: Au+Au
+#: keyword observables: Omega- dN/dy
+#: keyword cmenergies: 19.6
+#: particles,Omega-
+<Npart>,dN/dy,stat +,stat -,sys +,sys -
+57.7,0.0095,0.001,-0.001,0.0011,-0.0011
+133.3,0.0419,0.0025,-0.0025,0.0051,-0.0051
+224.9,0.096,0.006,-0.006,0.013,-0.013
+313.7,0.155,0.01,-0.01,0.02,-0.02
+

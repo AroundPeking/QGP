@@ -1,0 +1,17 @@
+#: table_doi: 10.17182/hepdata.94313.v1/t235
+#: name: Xi- dN/dy, Au+Au 19.6 GeV
+#: description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+#: data_file: fig17_xi_auau19.yaml
+#: keyword reactions: Au+Au
+#: keyword observables: Xi- dN/dy
+#: keyword cmenergies: 19.6
+#: particles,Xi-
+<Npart>,dN/dy,stat +,stat -,sys +,sys -
+19.9,0.0269,0.0005,-0.0005,0.0016,-0.0016
+57.7,0.1367,0.0013,-0.0013,0.008,-0.008
+108.0,0.349,0.003,-0.003,0.018,-0.018
+158.1,0.588,0.004,-0.004,0.03,-0.03
+224.9,0.907,0.006,-0.006,0.047,-0.047
+289.2,1.268,0.012,-0.012,0.078,-0.078
+338.0,1.62,0.02,-0.02,0.1,-0.1
+

@@ -1,0 +1,25 @@
+
+	SUBROUTINE PNTRT(X,Y,N,U,V)
+	DOUBLE PRECISION X,Y,U(N),V(N)
+	DOUBLE PRECISION R,Q,T
+	IF (N.LT.1) THEN
+	  DO 10 K=1,N
+	    U(K)=0.0
+	    V(K)=0.0
+10	  CONTINUE
+	  RETURN
+	END IF
+	Q=ATAN2(Y,X)
+	R=SQRT(X*X+Y*Y)
+	IF (R+1.0.NE.1.0) THEN
+	  R=(1.0/N)*LOG(R)
+	  R=EXP(R)
+	END IF
+	DO 20 K=1,N
+	  T=(2.0*(K-1.0)*3.1415926+Q)/(1.0*N)
+	  U(K)=R*COS(T)
+	  V(K)=R*SIN(T)
+20	CONTINUE
+	END
+
+

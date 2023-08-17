@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31313.79
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{6989167D-11E4-40FE-8C1A-2192A86A7E90}") = "lambar", "lambar\lambar.vfproj", "{B492A6AC-EE9A-4499-BF0D-26E7F0D97A14}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B492A6AC-EE9A-4499-BF0D-26E7F0D97A14}.Debug|x64.ActiveCfg = Debug|x64
+		{B492A6AC-EE9A-4499-BF0D-26E7F0D97A14}.Debug|x64.Build.0 = Debug|x64
+		{B492A6AC-EE9A-4499-BF0D-26E7F0D97A14}.Debug|x86.ActiveCfg = Debug|Win32
+		{B492A6AC-EE9A-4499-BF0D-26E7F0D97A14}.Debug|x86.Build.0 = Debug|Win32
+		{B492A6AC-EE9A-4499-BF0D-26E7F0D97A14}.Release|x64.ActiveCfg = Release|x64
+		{B492A6AC-EE9A-4499-BF0D-26E7F0D97A14}.Release|x64.Build.0 = Release|x64
+		{B492A6AC-EE9A-4499-BF0D-26E7F0D97A14}.Release|x86.ActiveCfg = Release|Win32
+		{B492A6AC-EE9A-4499-BF0D-26E7F0D97A14}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {341B7C04-6691-40EB-BE58-693C6CA205E0}
+	EndGlobalSection
+EndGlobal

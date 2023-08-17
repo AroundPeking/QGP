@@ -1,0 +1,14 @@
+#: table_doi: 10.17182/hepdata.94313.v1/t141
+#: name: AntiXi+ pT spectrum, Au+Au 7.7 GeV, 60-80%
+#: description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+#: data_file: fig9_xibar_auau7_cent0.yaml
+#: keyword reactions: Au+Au
+#: keyword observables: AntiXi+ pT spectrum
+#: keyword cmenergies: 7.7
+#: Centrality,,,60-80%
+pT [GeV/c],pT [GeV/c] LOW,pT [GeV/c] HIGH,d^2N/(2*pi*Nevt*pT*dy*dpT) [c^2/GeV^2],stat +,stat -,sys +,sys -
+0.7875,0.6,1.0,0.000227,8.13e-05,-8.13e-05,1.61e-05,-1.61e-05
+1.179,1.0,1.4,8.55e-05,2.42e-05,-2.42e-05,6.4e-06,-6.4e-06
+1.5744,1.4,1.8,1.053e-05,5.31e-06,-5.31e-06,7.2e-07,-7.2e-07
+1.9716,1.8,2.2,4.09e-06,2.36e-06,-2.36e-06,3.3e-07,-3.3e-07
+

@@ -1,0 +1,20 @@
+
+	DIMENSION A(4,4)
+	DOUBLE PRECISION A,DET
+	DATA A/5.0,7.0,6.0,5.0,7.0,10.0,8.0,7.0,6.0,
+     *         8.0,10.0,9.0,5.0,7.0,9.0,10.0/
+	CALL BCHOL(A,4,DET,L)
+	IF (L.NE.0) THEN
+	  WRITE(*,*)
+	  WRITE(*,10)
+	  WRITE(*,20) ((A(I,J),J=1,4),I=1,4)
+	  WRITE(*,*)
+	  WRITE(*,30) DET
+	  WRITE(*,*)
+	END IF
+10	FORMAT(1X,'MAT L IS:')
+20	FORMAT(1X,4D15.6)
+30	FORMAT(1X,'DET=',D15.6)
+	END
+
+

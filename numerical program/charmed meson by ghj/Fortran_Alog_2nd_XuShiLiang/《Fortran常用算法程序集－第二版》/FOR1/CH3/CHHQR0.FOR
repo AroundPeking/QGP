@@ -1,0 +1,20 @@
+
+	DIMENSION A(5,5),U(5),V(5)
+	DOUBLE PRECISION A,U,V
+	DATA A/1.0,8.0,-2.0,-13.0,17.0,6.0,-15.0,11.0,2.0,
+     *         22.0,-3.0,18.0,9.0,21.0,-5.0,-1.0,5.0,15.0,
+     *         30.0,3.0,7.0,4.0,20.0,-6.0,6.0/
+	CALL CHHBG(A,5)
+	WRITE(*,10) ((A(I,J),J=1,5),I=1,5)
+10	FORMAT(1X,5D15.6)
+	EPS=1.0E-06
+	CALL CHHQR(A,5,U,V,EPS,JT)
+	IF (JT.NE.0) THEN
+	  DO 20 I=1,5
+	    WRITE(*,30) U(I),V(I)
+20	  CONTINUE
+	END IF
+30	FORMAT(1X,D15.6,2X,'+J',1X,D15.6)
+	END
+
+

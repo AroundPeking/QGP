@@ -1,0 +1,18 @@
+
+	SUBROUTINE PCDIV(A,B,C,D,E,F)
+	DOUBLE PRECISION A,B,C,D,E,F
+	DOUBLE PRECISION P,Q,S,W
+	P=A*C
+	Q=-B*D
+	S=(A+B)*(C-D)
+	W=C*C+D*D
+	IF (W+1.0.EQ.1.0) THEN
+	  E=SIGN(1.0D+35,A)
+	  F=SIGN(1.0D+35,B)
+	ELSE
+	  E=(P-Q)/W
+	  F=(S-P-Q)/W
+	END IF
+	END
+
+

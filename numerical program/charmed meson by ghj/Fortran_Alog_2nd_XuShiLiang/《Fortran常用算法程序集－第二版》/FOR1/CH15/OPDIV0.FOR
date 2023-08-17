@@ -1,0 +1,15 @@
+
+	DOUBLE PRECISION P(5),Q(3),S(3),R(2)
+	DATA P/8.0,-5.0,-3.0,6.0,3.0/
+	DATA Q/1.0,-1.0,2.0/
+	CALL OPDIV(P,5,Q,3,S,3,R,2)
+	DO 10 I=1,3
+10	WRITE(*,100) I,S(I)
+	WRITE(*,*)
+	DO 20 I=1,2
+20	WRITE(*,200) I,R(I)
+100	FORMAT(1X,'S(',I2,')=',D13.6)
+200	FORMAT(1X,'R(',I2,')=',D13.6)
+	END
+
+

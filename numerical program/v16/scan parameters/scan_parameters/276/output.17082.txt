@@ -1,0 +1,70 @@
+2.76 TeV: chisq sums over 2 mesons(D0, Ds).
+scan: gamma0: 2.6-2.8(+0.1), q0: 5.0-7.0(+0.1).
+
+Parameters: 2.6, 5.0 | Error: 7.024363892704545
+Parameters: 2.6, 5.1 | Error: 6.224780559596615
+Parameters: 2.6, 5.2 | Error: 5.5458540263645375
+Parameters: 2.6, 5.3 | Error: 4.968971179517224
+Parameters: 2.6, 5.4 | Error: 4.479276440329428
+Parameters: 2.6, 5.5 | Error: 4.0643970306959005
+Parameters: 2.6, 5.6 | Error: 3.712615109562833
+Parameters: 2.6, 5.7 | Error: 3.416857806918662
+Parameters: 2.6, 5.8 | Error: 3.1679858343851883
+Parameters: 2.6, 5.9 | Error: 2.959701950555953
+Parameters: 2.6, 6.0 | Error: 2.786357965456016
+Parameters: 2.6, 6.1 | Error: 2.642954795084317
+Parameters: 2.6, 6.2 | Error: 2.525640509907737
+Parameters: 2.6, 6.3 | Error: 2.430723609590716
+Parameters: 2.6, 6.4 | Error: 2.354713255337094
+Parameters: 2.6, 6.5 | Error: 2.2954988484252628
+Parameters: 2.6, 6.6 | Error: 2.25050550013473
+Parameters: 2.6, 6.7 | Error: 2.2177384706669
+Parameters: 2.6, 6.8 | Error: 2.19535535523319
+Parameters: 2.6, 6.9 | Error: 2.18203818816049
+Parameters: 2.6, 7.0 | Error: 2.1764518439005798
+Parameters: 2.7, 5.0 | Error: 6.140446159641641
+Parameters: 2.7, 5.1 | Error: 5.454969347720113
+Parameters: 2.7, 5.2 | Error: 4.874274026247786
+Parameters: 2.7, 5.3 | Error: 4.383460452929969
+Parameters: 2.7, 5.4 | Error: 3.9698526606435838
+Parameters: 2.7, 5.5 | Error: 3.621106819531466
+Parameters: 2.7, 5.6 | Error: 3.328985019323699
+Parameters: 2.7, 5.7 | Error: 3.085200718699685
+Parameters: 2.7, 5.8 | Error: 2.882094211847419
+Parameters: 2.7, 5.9 | Error: 2.714661006543337
+Parameters: 2.7, 6.0 | Error: 2.577067530520779
+Parameters: 2.7, 6.1 | Error: 2.465647159320313
+Parameters: 2.7, 6.2 | Error: 2.376528492749166
+Parameters: 2.7, 6.3 | Error: 2.306531148255414
+Parameters: 2.7, 6.4 | Error: 2.25299311683289
+Parameters: 2.7, 6.5 | Error: 2.21343694156624
+Parameters: 2.7, 6.6 | Error: 2.1857484731416
+Parameters: 2.7, 6.7 | Error: 2.16836058817617
+Parameters: 2.7, 6.8 | Error: 2.1599137961343002
+Parameters: 2.7, 6.9 | Error: 2.15905661607549
+Parameters: 2.7, 7.0 | Error: 2.1645796330137204
+Parameters: 2.8, 5.0 | Error: 5.4075806182622905
+Parameters: 2.8, 5.1 | Error: 4.817439245988466
+Parameters: 2.8, 5.2 | Error: 4.321393133254061
+Parameters: 2.8, 5.3 | Error: 3.90451211733131
+Parameters: 2.8, 5.4 | Error: 3.555642861452875
+Parameters: 2.8, 5.5 | Error: 3.264382200788181
+Parameters: 2.8, 5.6 | Error: 3.022141314562919
+Parameters: 2.8, 5.7 | Error: 2.822251754253272
+Parameters: 2.8, 5.8 | Error: 2.658214175350553
+Parameters: 2.8, 5.9 | Error: 2.5246291713079
+Parameters: 2.8, 6.0 | Error: 2.417658190268516
+Parameters: 2.8, 6.1 | Error: 2.3330633954501367
+Parameters: 2.8, 6.2 | Error: 2.267734117658563
+Parameters: 2.8, 6.3 | Error: 2.21864747663951
+Parameters: 2.8, 6.4 | Error: 2.1833888571673103
+Parameters: 2.8, 6.5 | Error: 2.1602207499399597
+Parameters: 2.8, 6.6 | Error: 2.14714272053841
+Parameters: 2.8, 6.7 | Error: 2.14288676464689
+Parameters: 2.8, 6.8 | Error: 2.14591313923725
+Parameters: 2.8, 6.9 | Error: 2.155067635732882
+Parameters: 2.8, 7.0 | Error: 2.1695133689879738
+The best parameters:
+PAR(1) = 2.8
+PAR(2) = 6.7
+Minimal chisq: 2.14288676464689

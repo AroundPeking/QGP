@@ -1,0 +1,24 @@
+
+	SUBROUTINE FFFTS(A,B,F,EPS,T)
+	DOUBLE PRECISION A,B,F,T,FA,FB,H,T1,S,X
+	FA=F(A)
+	FB=F(B)
+	N=1
+	H=B-A
+	T1=H*(FA+FB)/2.0
+5	S=0.0
+	DO 10 K=0,N-1
+	  X=A+(K+0.5)*H
+	  S=S+F(X)
+10	CONTINUE
+	T=(T1+H*S)/2.0
+	IF (ABS(T1-T).GE.EPS) THEN
+	  T1=T
+	  N=N+N
+	  H=H/2.0
+	  GOTO 5
+	END IF
+	RETURN
+	END
+
+

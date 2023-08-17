@@ -1,0 +1,32 @@
+
+	SUBROUTINE FCBSV(A,B,F,EPS,S)
+	DIMENSION T(5)
+	DOUBLE PRECISION A,B,F,S,T,D,P,H,G,Q,AA,BB,X
+	DATA T/-0.8324975,-0.3745414,0.0,0.3745414,0.8324975/
+	M=1
+	D=(B-A)*0.001
+	P=0.0
+10	H=(B-A)/M
+	G=0.0
+	DO 30 I=1,M
+	  AA=A+(I-1)*H
+	  BB=A+I*H
+	  S=0.0
+	  DO 20 J=1,5
+	    X=((BB-AA)*T(J)+(BB+AA))/2.0
+	    S=S+F(X)
+20	  CONTINUE
+	  G=G+S
+30	CONTINUE
+	G=G*H/5.0
+	Q=ABS(G-P)/(1+ABS(G))
+	IF ((Q.GE.EPS).AND.(ABS(H).GT.ABS(D))) THEN
+	  P=G
+	  M=M+1
+	  GOTO 10
+	END IF
+	S=G
+	RETURN
+	END
+
+

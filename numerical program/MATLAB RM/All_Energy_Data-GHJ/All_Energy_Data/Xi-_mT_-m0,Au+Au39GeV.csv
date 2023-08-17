@@ -1,0 +1,17 @@
+#: table_doi: 10.17182/hepdata.94313.v1/t199
+#: name: Xi- <mT>-m0, Au+Au 39 GeV
+#: description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+#: data_file: fig14_xi_auau39.yaml
+#: keyword reactions: Au+Au
+#: keyword observables: Xi- <mT>-m0
+#: keyword cmenergies: 39
+#: particles,Xi-
+<Npart>,<mT>-m0 [GeV^2/c^2],stat +,stat -,sys +,sys -
+20.0,0.291,0.0023,-0.0023,0.0056,-0.0056
+59.2,0.3263,0.0013,-0.0013,0.0062,-0.0062
+111.4,0.3527,0.0013,-0.0013,0.0053,-0.0053
+162.4,0.3729,0.0011,-0.0011,0.0072,-0.0072
+229.8,0.3908,0.0011,-0.0011,0.0103,-0.0103
+293.9,0.3961,0.0015,-0.0015,0.013,-0.013
+341.7,0.3997,0.0016,-0.0016,0.0118,-0.0118
+

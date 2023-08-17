@@ -1,0 +1,22 @@
+
+	DIMENSION X(6),Y(5),Z(6,5)
+	DOUBLE PRECISION X,Y,Z,U,V,W
+	DO 10 I=1,6
+10	X(I)=0.2*(I-1)
+	DO 20 J=1,5
+20	Y(J)=0.25*(J-1)
+	DO 30 I=1,6
+	DO 30 J=1,5
+30	Z(I,J)=EXP(-(X(I)-Y(J)))
+	U=0.9
+	V=0.8
+	CALL ESLQ3(X,Y,Z,6,5,U,V,W)
+	WRITE(*,40) U,V,W
+40	FORMAT(1X,'X=',F7.3,5X,'Y=',F7.3,10X,'Z(X,Y)=',D15.6)
+	U=0.3
+	V=0.9
+	CALL ESLQ3(X,Y,Z,6,5,U,V,W)
+	WRITE(*,40) U,V,W
+	END
+
+

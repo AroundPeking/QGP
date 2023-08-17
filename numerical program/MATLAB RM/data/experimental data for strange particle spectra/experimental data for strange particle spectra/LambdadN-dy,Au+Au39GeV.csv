@@ -1,0 +1,17 @@
+#: table_doi: 10.17182/hepdata.94313.v1/t249
+#: name: Lambda dN/dy, Au+Au 39 GeV
+#: description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+#: data_file: fig17_lambda_auau39.yaml
+#: keyword reactions: Au+Au
+#: keyword observables: Lambda dN/dy
+#: keyword cmenergies: 39
+#: particles,Lambda
+<Npart>,dN/dy,stat +,stat -,sys +,sys -
+20.0,0.346,0.002,-0.002,0.023,-0.023
+59.2,1.378,0.005,-0.005,0.065,-0.065
+111.4,2.94,0.01,-0.01,0.13,-0.13
+162.4,4.53,0.01,-0.01,0.22,-0.22
+229.8,6.77,0.02,-0.02,0.4,-0.4
+293.9,8.96,0.03,-0.03,0.63,-0.63
+341.7,11.02,0.03,-0.03,0.86,-0.86
+

@@ -1,0 +1,17 @@
+
+	DOUBLE PRECISION R
+	REAL NGRN1,A(50)
+	R=5.0
+	U=1.0
+	G=1.5
+	N=50
+	DO 10 I=1,N
+10	A(I)=NGRN1(U,G,R)
+	WRITE(*,*)
+	WRITE(*,20) (A(I),I=1,50)
+20	FORMAT(1X,5F10.6)
+	WRITE(*,*)
+	END
+
+
+

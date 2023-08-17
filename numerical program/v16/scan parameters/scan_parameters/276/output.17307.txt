@@ -1,0 +1,21 @@
+Scan:
+ Tc:0.6-0.62(0.01),
+ Cc:3.2-3.4(0.1),
+ gamma0:2.1-2.3(0.1).
+Parameters(Tc, Cc, gamma0): 0.6, 3.2, 2.1 | Error: 1.9891908695663219
+Parameters(Tc, Cc, gamma0): 0.6, 3.3, 2.1 | Error: 1.9695898089136499
+Parameters(Tc, Cc, gamma0): 0.61, 3.2, 2.1 | Error: 1.955644058613228
+Parameters(Tc, Cc, gamma0): 0.61, 3.3, 2.1 | Error: 1.945648555303405
+Parameters(Tc, Cc, gamma0): 0.62, 3.2, 2.1 | Error: 1.9490815628725242
+Parameters(Tc, Cc, gamma0): 0.62, 3.3, 2.1 | Error: 1.9509511569394609
+Parameters(Tc, Cc, gamma0): 0.6, 3.2, 2.2 | Error: 1.9244359317129032
+Parameters(Tc, Cc, gamma0): 0.6, 3.3, 2.2 | Error: 1.901127555419754
+Parameters(Tc, Cc, gamma0): 0.61, 3.2, 2.2 | Error: 1.877239631644054
+Parameters(Tc, Cc, gamma0): 0.61, 3.3, 2.2 | Error: 1.86311026136172
+Parameters(Tc, Cc, gamma0): 0.62, 3.2, 2.2 | Error: 1.855795651891401
+Parameters(Tc, Cc, gamma0): 0.62, 3.3, 2.2 | Error: 1.8530663273046069
+The best parameters:
+Tc     = 0.62
+Cc     = 3.3
+PAR(1) = 2.2
+Minimal chisq: 1.8530663273046069

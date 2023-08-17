@@ -1,0 +1,17 @@
+#: table_doi: 10.17182/hepdata.94313.v1/t262
+#: name: AntiLambda/Lambda, Au+Au 19.6 GeV
+#: description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+#: data_file: fig20_lambarlam_auau19.yaml
+#: keyword reactions: Au+Au
+#: keyword observables: AntiLambda/Lambda
+#: keyword cmenergies: 19.6
+#: particles,AntiLambda/Lambda
+<Npart>,Bbar/B,stat +,stat -,sys +,sys -
+19.9,0.2867,0.0031,-0.0031,0.0051,-0.0051
+57.7,0.2273,0.0016,-0.0016,0.0043,-0.0043
+108.0,0.1946,0.0013,-0.0013,0.0037,-0.0037
+158.1,0.176,0.001,-0.001,0.0036,-0.0036
+224.9,0.1614,0.0008,-0.0008,0.0042,-0.0042
+289.2,0.1557,0.001,-0.001,0.0043,-0.0043
+338.0,0.1478,0.0009,-0.0009,0.0037,-0.0037
+

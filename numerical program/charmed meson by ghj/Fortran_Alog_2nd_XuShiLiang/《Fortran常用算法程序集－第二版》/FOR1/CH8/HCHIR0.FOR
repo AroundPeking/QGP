@@ -1,0 +1,21 @@
+
+	DIMENSION X(101),Y(101),A(7)
+	DOUBLE PRECISION X,Y,A
+	N=101
+	M=6
+	M1=7
+	DO 10 I=1,N
+	  X(I)=-1.0+(I-1)*0.02
+	  Y(I)=ATAN(X(I))
+10	CONTINUE
+	CALL HCHIR(X,Y,N,A,M,M1)
+	WRITE(*,*)
+	WRITE(*,20) (I,A(I),I=1,M)
+	WRITE(*,*)
+	WRITE(*,30) A(M1)
+	WRITE(*,*)
+20	FORMAT(1X,'A(',I2,' )=',D15.6)
+30	FORMAT(1X,'HMAX=',D15.6)
+	END
+
+

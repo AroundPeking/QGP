@@ -1,0 +1,14 @@
+#: table_doi: 10.17182/hepdata.94313.v1/t211
+#: name: Omega- <mT>-m0, Au+Au 27 GeV
+#: description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+#: data_file: fig15_omega_auau27.yaml
+#: keyword reactions: Au+Au
+#: keyword observables: Omega- <mT>-m0
+#: keyword cmenergies: 27
+#: particles,Omega-
+<Npart>,<mT>-m0 [GeV^2/c^2],stat +,stat -,sys +,sys -
+61.2,0.3102,0.0154,-0.0154,0.0061,-0.0061
+139.6,0.3593,0.0093,-0.0093,0.0104,-0.0104
+233.6,0.335,0.011,-0.011,0.023,-0.023
+319.3,0.368,0.011,-0.011,0.02,-0.02
+

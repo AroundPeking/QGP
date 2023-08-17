@@ -1,0 +1,16 @@
+#: table_doi: 10.17182/hepdata.94313.v1/t253
+#: name: Phi dN/dy, Au+Au 39 GeV
+#: description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+#: data_file: fig17_phi_auau39.yaml
+#: keyword reactions: Au+Au
+#: keyword observables: Phi dN/dy
+#: keyword cmenergies: 39
+#: particles,Phi
+<Npart>,dN/dy,stat +,stat -,sys +,sys -
+20.0,0.106,0.001,-0.001,0.013,-0.013
+59.2,0.455,0.004,-0.004,0.057,-0.057
+111.4,0.96,0.01,-0.01,0.12,-0.12
+162.4,1.5,0.01,-0.01,0.18,-0.18
+229.8,2.22,0.02,-0.02,0.28,-0.28
+317.3,3.38,0.03,-0.03,0.48,-0.48
+

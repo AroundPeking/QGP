@@ -1,0 +1,18 @@
+
+	DIMENSION X(6)
+	EXTERNAL F
+	CALL DDHRT(-2.0,5.0,0.2,1.0E-06,X,6,M,F)
+	WRITE(*,10) M
+10	FORMAT(1X,'M=',I2)
+	DO 20 I=1,M
+20	WRITE(*,30) I,X(I)
+30	FORMAT(1X,'X(',I2,')=',E15.6)
+	END
+
+	FUNCTION F(X)
+	F=(((((X-5)*X+3)*X+1)*X-7)*X+7)*X-20.0
+	RETURN
+	END
+
+
+

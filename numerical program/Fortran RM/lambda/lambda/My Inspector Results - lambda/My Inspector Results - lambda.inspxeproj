@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+ <connectionOption></connectionOption>
+ <rdmgr>
+  <timestamp type="u64_t">1625821989</timestamp>
+  <hostname>LAPTOP-VLPQO6D9</hostname>
+  <os>windows</os>
+  <product>Intel® Inspector 2021.2</product>
+  <buildNumber type="s32_t">605251</buildNumber>
+  <logicalCPUCount type="s32_t">12</logicalCPUCount>
+  <physicalCoreCount type="s32_t">6</physicalCoreCount>
+  <processorPackageCount type="s32_t">1</processorPackageCount>
+  <CPUFrequency type="s64_t">2600000000</CPUFrequency>
+  <CPUFamily type="s32_t">6</CPUFamily>
+  <CPUModel type="s32_t">158</CPUModel>
+  <CPUStepping type="s32_t">10</CPUStepping>
+  <CPUBrandName>Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz</CPUBrandName>
+  <isa>avx2</isa>
+ </rdmgr>
+ <contextValues type="bag"/>
+ <All_Configurations-All_Platforms>
+  <target_settings>
+   <selected_workload>
+    <localhost>launch</localhost>
+   </selected_workload>
+   <result_pattern>
+    <localhost>r@@@{at}</localhost>
+   </result_pattern>
+   <workloads>
+    <localhost>
+     <launch type="pointer" type_id="dasID_cctrl2::ApplicationWorkload" ptr_type="dasID_cctrl2::IWorkload">
+      <workload>
+       <targetName>launch</targetName>
+       <launch_app.app_to_launch>C:\Users\86177\Desktop\innovation\program\lambda\lambda\Debug\lambda.exe</launch_app.app_to_launch>
+       <launch_app.working_folder>C:\Users\86177\Desktop\innovation\program\lambda\lambda</launch_app.working_folder>
+       <launch_app.environment_prepend>PATH=C:\Program Files (x86)\Intel\oneAPI\compiler\2021.2.0\windows\redist\ia32_win\compiler;C:\Program Files (x86)\Intel\oneAPI\compiler\2021.2.0\windows\..\..\..\mkl\latest\redist\ia32;</launch_app.environment_prepend>
+       <use_app_dir_as_work_dir type="bool">false</use_app_dir_as_work_dir>
+       <result_directory.path>C:\Users\86177\Desktop\innovation\program\lambda\lambda\My Inspector Results - lambda\r@@@{at}</result_directory.path>
+       <search_directories>
+        <item>
+         <value>sym=C:\Users\86177\Desktop\innovation\program\lambda</value>
+        </item>
+        <item>
+         <value>sym=srv*C:\Users\86177\AppData\Local\Temp\SymbolCache</value>
+        </item>
+        <item>
+         <value>sym=srv*https://msdl.microsoft.com/download/symbols</value>
+        </item>
+        <item>
+         <value>bin=C:\Users\86177\Desktop\innovation\program\lambda\lambda</value>
+        </item>
+       </search_directories>
+       <context>
+        <contextValue>
+         <id>appdebug</id>
+         <value>off</value>
+        </contextValue>
+        <contextValue>
+         <id>custom_debugger</id>
+         <value></value>
+        </contextValue>
+        <contextValue>
+         <id>debug_this_problem</id>
+         <value></value>
+        </contextValue>
+        <contextValue>
+         <id>debug_using</id>
+         <value>gdb</value>
+        </contextValue>
+        <contextValue>
+         <id>heartbeat</id>
+         <value type="bool">true</value>
+        </contextValue>
+        <contextValue>
+         <id>modules_switch</id>
+         <value>knob.modules_switch.include</value>
+        </contextValue>
+        <contextValue>
+         <id>mrte_mode</id>
+         <value>native</value>
+        </contextValue>
+        <contextValue>
+         <id>offload_target</id>
+         <value>default</value>
+        </contextValue>
+        <contextValue>
+         <id>process_for_analysis</id>
+         <value></value>
+        </contextValue>
+        <contextValue>
+         <id>suppressions</id>
+         <value>delete</value>
+        </contextValue>
+        <contextValue>
+         <id>targetType</id>
+         <value>launch</value>
+        </contextValue>
+        <contextValue>
+         <id>traceMpi</id>
+         <value type="bool">false</value>
+        </contextValue>
+       </context>
+      </workload>
+     </launch>
+    </localhost>
+   </workloads>
+  </target_settings>
+ </All_Configurations-All_Platforms>
+</root>

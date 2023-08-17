@@ -1,0 +1,17 @@
+#: table_doi: 10.17182/hepdata.94313.v1/t177
+#: name: Lambda <mT>-m0, Au+Au 7.7 GeV
+#: description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+#: data_file: fig13_lambda_auau7.yaml
+#: keyword reactions: Au+Au
+#: keyword observables: Lambda <mT>-m0
+#: keyword cmenergies: 7.7
+#: particles,Lambda
+<Npart>,<mT>-m0 [GeV^2/c^2],stat +,stat -,sys +,sys -
+20.2,0.203,0.0018,-0.0018,0.0037,-0.0037
+58.4,0.2488,0.0015,-0.0015,0.004,-0.004
+109.9,0.2778,0.0016,-0.0016,0.0055,-0.0055
+160.2,0.2913,0.0013,-0.0013,0.0049,-0.0049
+226.2,0.3059,0.0012,-0.0012,0.0057,-0.0057
+290.4,0.3178,0.0016,-0.0016,0.0054,-0.0054
+337.4,0.3214,0.0014,-0.0014,0.0048,-0.0048
+

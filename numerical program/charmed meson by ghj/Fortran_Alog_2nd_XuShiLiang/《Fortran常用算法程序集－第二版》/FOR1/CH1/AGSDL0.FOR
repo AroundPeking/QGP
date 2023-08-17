@@ -1,0 +1,15 @@
+
+	DIMENSION A(4,4),B(4),X(4)
+	DOUBLE PRECISION A,B,X
+	DATA A/7.0,9.0,-2.0,1.0,2.0,15.0,-2.0,3.0,
+     *         1.0,3.0,11.0,2.0,-2.0,-2.0,5.0,13.0/
+	DATA B/4.0,7.0,-1.0,0.0/
+	EPS=1.0E-06
+	CALL AGSDL(A,B,4,X,EPS,L)
+	IF (L.NE.0) THEN
+	  WRITE(*,10) (X(I),I=1,4)
+	END IF
+10	FORMAT(1X,D15.6)
+	END
+
+

@@ -1,0 +1,31 @@
+
+	EXTERNAL F
+	DIMENSION Y(2),D(2),B(2),C(2),G(2),E(2)
+	DOUBLE PRECISION Y,D,T,H,B,C,G,E
+	T=0.0
+	Y(1)=0.0
+	Y(2)=1.0
+	H=0.1
+	M=2
+	EPS=1.0E-05
+	WRITE(*,*)
+	WRITE(*,50) T,Y(1),Y(2)
+	WRITE(*,*)
+	DO 10 I=1,10
+	  CALL GRKT2(T,H,Y,M,F,EPS,D,B,C,G,E)
+	  T=T+H
+	  WRITE(*,50) T,Y(1),Y(2)
+	  WRITE(*,*)
+10	CONTINUE
+50	FORMAT(1X,'T=',F7.3,5X,'Y(1)=',D13.6,5X,'Y(2)=',D13.6)
+	END
+
+	SUBROUTINE F(T,Y,M,D)
+	DIMENSION Y(M),D(M)
+	DOUBLE PRECISION Y,D,T
+	D(1)=Y(2)
+	D(2)=-Y(1)
+	RETURN
+	END
+
+

@@ -1,0 +1,75 @@
+Scan:
+ Tc:0.62-0.64(0.01),
+ Cc:3.0-4.0(0.1),
+ gamma0:2.1-2.3(0.1).
+Parameters(Tc, Cc, gamma0): 0.62, 3.0, 2.1 | Error: 1.963529922346067
+Parameters(Tc, Cc, gamma0): 0.62, 3.1, 2.1 | Error: 1.953274483703027
+Parameters(Tc, Cc, gamma0): 0.62, 3.2, 2.1 | Error: 1.9490815628725242
+Parameters(Tc, Cc, gamma0): 0.62, 3.3, 2.1 | Error: 1.9509511569394609
+Parameters(Tc, Cc, gamma0): 0.62, 3.4, 2.1 | Error: 1.9588832631292648
+Parameters(Tc, Cc, gamma0): 0.62, 3.5, 2.1 | Error: 1.972877878797271
+Parameters(Tc, Cc, gamma0): 0.62, 3.6, 2.1 | Error: 1.9929350014190501
+Parameters(Tc, Cc, gamma0): 0.62, 3.7, 2.1 | Error: 2.019054628581759
+Parameters(Tc, Cc, gamma0): 0.62, 3.8, 2.1 | Error: 2.051236757976333
+Parameters(Tc, Cc, gamma0): 0.62, 3.9, 2.1 | Error: 2.08948138739037
+Parameters(Tc, Cc, gamma0): 0.62, 4.0, 2.1 | Error: 2.1337885147017097
+Parameters(Tc, Cc, gamma0): 0.63, 3.0, 2.1 | Error: 1.9626691475154492
+Parameters(Tc, Cc, gamma0): 0.63, 3.1, 2.1 | Error: 1.965222104370054
+Parameters(Tc, Cc, gamma0): 0.63, 3.2, 2.1 | Error: 1.974665773690989
+Parameters(Tc, Cc, gamma0): 0.63, 3.3, 2.1 | Error: 1.99100015232765
+Parameters(Tc, Cc, gamma0): 0.63, 3.4, 2.1 | Error: 2.014225237279512
+Parameters(Tc, Cc, gamma0): 0.63, 3.5, 2.1 | Error: 2.044341025684965
+Parameters(Tc, Cc, gamma0): 0.63, 3.6, 2.1 | Error: 2.08134751481095
+Parameters(Tc, Cc, gamma0): 0.63, 3.7, 2.1 | Error: 2.1252447020437497
+Parameters(Tc, Cc, gamma0): 0.63, 3.8, 2.1 | Error: 2.17603258488076
+Parameters(Tc, Cc, gamma0): 0.63, 3.9, 2.1 | Error: 2.23371116092294
+Parameters(Tc, Cc, gamma0): 0.63, 4.0, 2.1 | Error: 2.29828042786791
+Parameters(Tc, Cc, gamma0): 0.64, 3.0, 2.1 | Error: 1.9941146271873191
+Parameters(Tc, Cc, gamma0): 0.64, 3.1, 2.1 | Error: 2.012237997572571
+Parameters(Tc, Cc, gamma0): 0.64, 3.2, 2.1 | Error: 2.038188993605164
+Parameters(Tc, Cc, gamma0): 0.64, 3.3, 2.1 | Error: 2.0719676118766897
+Parameters(Tc, Cc, gamma0): 0.64, 3.4, 2.1 | Error: 2.11357384913926
+Parameters(Tc, Cc, gamma0): 0.64, 3.5, 2.1 | Error: 2.1630077022934797
+Parameters(Tc, Cc, gamma0): 0.64, 3.6, 2.1 | Error: 2.22026916837748
+Parameters(Tc, Cc, gamma0): 0.64, 3.7, 2.1 | Error: 2.28535824455725
+Parameters(Tc, Cc, gamma0): 0.64, 3.8, 2.1 | Error: 2.358274928117805
+Parameters(Tc, Cc, gamma0): 0.64, 3.9, 2.1 | Error: 2.439019216455112
+Parameters(Tc, Cc, gamma0): 0.64, 4.0, 2.1 | Error: 2.52759110706887
+Parameters(Tc, Cc, gamma0): 0.62, 3.0, 2.2 | Error: 1.8794418377084572
+Parameters(Tc, Cc, gamma0): 0.62, 3.1, 2.2 | Error: 1.864587487728959
+Parameters(Tc, Cc, gamma0): 0.62, 3.2, 2.2 | Error: 1.855795651891401
+Parameters(Tc, Cc, gamma0): 0.62, 3.3, 2.2 | Error: 1.8530663273046069
+Parameters(Tc, Cc, gamma0): 0.62, 3.4, 2.2 | Error: 1.856399511218002
+Parameters(Tc, Cc, gamma0): 0.62, 3.5, 2.2 | Error: 1.865795201010874
+Parameters(Tc, Cc, gamma0): 0.62, 3.6, 2.2 | Error: 1.881253394182734
+Parameters(Tc, Cc, gamma0): 0.62, 3.7, 2.2 | Error: 1.9027740883444961
+Parameters(Tc, Cc, gamma0): 0.62, 3.8, 2.2 | Error: 1.9303572812107401
+Parameters(Tc, Cc, gamma0): 0.62, 3.9, 2.2 | Error: 1.9640029705925612
+Parameters(Tc, Cc, gamma0): 0.62, 4.0, 2.2 | Error: 2.003711154391061
+Parameters(Tc, Cc, gamma0): 0.63, 3.0, 2.2 | Error: 1.863402428788869
+Parameters(Tc, Cc, gamma0): 0.63, 3.1, 2.2 | Error: 1.860850514354834
+Parameters(Tc, Cc, gamma0): 0.63, 3.2, 2.2 | Error: 1.865189308342319
+Parameters(Tc, Cc, gamma0): 0.63, 3.3, 2.2 | Error: 1.8764188076256278
+Parameters(Tc, Cc, gamma0): 0.63, 3.4, 2.2 | Error: 1.894539009229338
+Parameters(Tc, Cc, gamma0): 0.63, 3.5, 2.2 | Error: 1.919549910316857
+Parameters(Tc, Cc, gamma0): 0.63, 3.6, 2.2 | Error: 1.951451508180151
+Parameters(Tc, Cc, gamma0): 0.63, 3.7, 2.2 | Error: 1.9902438002305138
+Parameters(Tc, Cc, gamma0): 0.63, 3.8, 2.2 | Error: 2.0359267839902273
+Parameters(Tc, Cc, gamma0): 0.63, 3.9, 2.2 | Error: 2.088500457084894
+Parameters(Tc, Cc, gamma0): 0.63, 4.0, 2.2 | Error: 2.14796481723673
+Parameters(Tc, Cc, gamma0): 0.64, 3.0, 2.2 | Error: 1.878367660782542
+Parameters(Tc, Cc, gamma0): 0.64, 3.1, 2.2 | Error: 1.890836812214405
+Parameters(Tc, Cc, gamma0): 0.64, 3.2, 2.2 | Error: 1.911133584832971
+Parameters(Tc, Cc, gamma0): 0.64, 3.3, 2.2 | Error: 1.939257975255754
+Parameters(Tc, Cc, gamma0): 0.64, 3.4, 2.2 | Error: 1.975209980260968
+Parameters(Tc, Cc, gamma0): 0.64, 3.5, 2.2 | Error: 2.018989596775357
+Parameters(Tc, Cc, gamma0): 0.64, 3.6, 2.2 | Error: 2.0705968218632993
+Parameters(Tc, Cc, gamma0): 0.64, 3.7, 2.2 | Error: 2.13003165271699
+Parameters(Tc, Cc, gamma0): 0.64, 3.8, 2.2 | Error: 2.1972940866475597
+Parameters(Tc, Cc, gamma0): 0.64, 3.9, 2.2 | Error: 2.27238412107699
+Parameters(Tc, Cc, gamma0): 0.64, 4.0, 2.2 | Error: 2.3553017535308802
+The best parameters:
+Tc     = 0.62
+Cc     = 3.3
+PAR(1) = 2.2
+Minimal chisq: 1.8530663273046069

@@ -1,0 +1,23 @@
+#: table_doi: 10.17182/hepdata.94313.v1/t319
+#: name: AntiLambda/K0S, Au+Au 19.6 GeV, 60-80%
+#: description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+#: data_file: fig29_auau19_cent0.yaml
+#: keyword reactions: Au+Au
+#: keyword observables: AntiLambda/K0S
+#: keyword cmenergies: 19.6
+#: Centrality,60-80%
+pT [GeV/c],AntiLambda/K0S,stat +,stat -
+0.4993,0.1372,0.0041,-0.0041
+0.6972,0.1789,0.004,-0.004
+0.8959,0.2239,0.0047,-0.0047
+1.0949,0.2546,0.0055,-0.0055
+1.2942,0.307,0.0075,-0.0075
+1.4937,0.3424,0.0097,-0.0097
+1.6934,0.345,0.012,-0.012
+1.8931,0.343,0.015,-0.015
+2.1348,0.33,0.016,-0.016
+2.4349,0.414,0.031,-0.031
+2.7737,0.325,0.039,-0.039
+3.1743,0.21,0.059,-0.059
+3.6454,0.168,0.085,-0.085
+

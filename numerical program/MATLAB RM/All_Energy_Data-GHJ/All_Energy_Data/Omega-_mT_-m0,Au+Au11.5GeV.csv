@@ -1,0 +1,12 @@
+#: table_doi: 10.17182/hepdata.94313.v1/t205
+#: name: Omega- <mT>-m0, Au+Au 11.5 GeV
+#: description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+#: data_file: fig15_omega_auau11.yaml
+#: keyword reactions: Au+Au
+#: keyword observables: Omega- <mT>-m0
+#: keyword cmenergies: 11.5
+#: particles,Omega-
+<Npart>,<mT>-m0 [GeV^2/c^2],stat +,stat -,sys +,sys -
+122.5,0.29,0.012,-0.012,0.013,-0.013
+313.7,0.324,0.024,-0.024,0.026,-0.026
+

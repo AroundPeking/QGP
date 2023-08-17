@@ -1,0 +1,17 @@
+#: table_doi: 10.17182/hepdata.94313.v1/t217
+#: name: Lambda dN/dy, Au+Au 7.7 GeV
+#: description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+#: data_file: fig17_lambda_auau7.yaml
+#: keyword reactions: Au+Au
+#: keyword observables: Lambda dN/dy
+#: keyword cmenergies: 7.7
+#: particles,Lambda
+<Npart>,dN/dy,stat +,stat -,sys +,sys -
+20.2,0.357,0.005,-0.005,0.029,-0.029
+58.4,1.617,0.017,-0.017,0.085,-0.085
+109.9,3.57,0.03,-0.03,0.19,-0.19
+160.2,5.92,0.04,-0.04,0.28,-0.28
+226.2,8.99,0.06,-0.06,0.43,-0.43
+290.4,11.96,0.1,-0.1,0.66,-0.66
+337.4,15.3,0.11,-0.11,0.82,-0.82
+

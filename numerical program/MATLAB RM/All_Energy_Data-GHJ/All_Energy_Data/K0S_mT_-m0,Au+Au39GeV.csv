@@ -1,0 +1,17 @@
+#: table_doi: 10.17182/hepdata.94313.v1/t188
+#: name: K0S <mT>-m0, Au+Au 39 GeV
+#: description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+#: data_file: fig13_k0s_auau39.yaml
+#: keyword reactions: Au+Au
+#: keyword observables: K0S <mT>-m0
+#: keyword cmenergies: 39
+#: particles,K0S
+<Npart>,<mT>-m0 [GeV^2/c^2],stat +,stat -,sys +,sys -
+20.0,0.2752,0.0009,-0.0009,0.0047,-0.0047
+59.2,0.3026,0.0007,-0.0007,0.003,-0.003
+111.4,0.3195,0.0007,-0.0007,0.0036,-0.0036
+162.4,0.3311,0.0006,-0.0006,0.0031,-0.0031
+229.8,0.3396,0.0005,-0.0005,0.0032,-0.0032
+293.9,0.3442,0.0006,-0.0006,0.0047,-0.0047
+341.7,0.3468,0.0006,-0.0006,0.0052,-0.0052
+

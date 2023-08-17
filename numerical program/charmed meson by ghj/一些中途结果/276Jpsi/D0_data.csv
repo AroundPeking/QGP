@@ -1,0 +1,52 @@
+#: table_doi: 10.17182/hepdata.73474.v2/t2
+#: name: Table 1
+#: description: Centrality dependence of the $D^0$ $p_{\rm T}$ differential invariant yield in Au+Au collisions (solid symbols). The curves are number-of-binary-collision-scaled Levy functions from fitting to the p+p result (open circles), which has been updated with the latest global analysis of charm fragmentation ratios from Ref and also taking into account the $p_{\rm T}$ dependence of the fragmentation ratio between $D^0$ and $D^{*{\pm}}$ from PYTHIA 6.4. The arrow denotes the upper limit with 90% confidence level of the last data point for 10$-$40% collisions. The systematic uncertainties are shown as square brackets.
+#: data_file: Table_1.yaml
+#: keyword observables: D2N/DPT/DY
+#: keyword reactions: AU AU --> D0 X | D0 --> K- PI+ X
+#: keyword cmenergies: 200.0
+#: keyword phrases: Inclusive | Decay | Transverse Momentum Dependence | Charm Production
+#: CENTRALITIES [PCT],0-80
+#: SQRT(S) [GeV],200.0
+$p_T$ [GeV/c],$d^2N/(N_{ev}2\pi p_Tdp_Tdy)$ [(GeV/c)$^{-2}$],stat +,stat -,sys +,sys -
+0.315,0.0416,0.0078,-0.0078,0.0063,-0.0063
+0.968,0.0359,0.0066,-0.0066,0.0048,-0.0048
+1.35,0.0248,0.0037,-0.0037,0.003,-0.003
+1.89,0.0095,0.00157,-0.00157,0.00115,-0.00115
+2.56,0.002,0.00043,-0.00043,0.00022,-0.00022
+3.75,0.000232,4.3e-05,-4.3e-05,2.8e-05,-2.8e-05
+5.88,6.65e-06,1.53e-06,-1.53e-06,1.06e-06,-1.06e-06
+
+#: CENTRALITIES [PCT],0-10
+#: SQRT(S) [GeV],200.0
+$p_T$ [GeV/c],$d^2N/(N_{ev}2\pi p_Tdp_Tdy)$ [(GeV/c)$^{-2}$],stat +,stat -,sys +,sys -
+0.315,0.0855,0.0256,-0.0256,0.0125,-0.0125
+0.968,0.0963,0.0198,-0.0198,0.0119,-0.0119
+1.35,0.0732,0.0126,-0.0126,0.0091,-0.0091
+1.89,0.0236,0.0041,-0.0041,0.0028,-0.0028
+2.56,0.00352,0.00104,-0.00104,0.00046,-0.00046
+3.75,0.000461,0.000117,-0.000117,5.5e-05,-5.5e-05
+5.88,1.47e-05,4e-06,-4e-06,1.9e-06,-1.9e-06
+
+#: CENTRALITIES [PCT],10-40
+#: SQRT(S) [GeV],200.0
+$p_T$ [GeV/c],$d^2N/(N_{ev}2\pi p_Tdp_Tdy)$ [(GeV/c)$^{-2}$],stat +,stat -,sys +,sys -
+0.315,0.057,0.0128,-0.0128,0.0071,-0.0071
+0.968,0.0545,0.0108,-0.0108,0.0063,-0.0063
+1.35,0.0259,0.0047,-0.0047,0.003,-0.003
+1.89,0.0121,0.0022,-0.0022,0.0016,-0.0016
+2.56,0.00279,0.00063,-0.00063,0.00031,-0.00031
+3.75,0.000251,6.7e-05,-6.7e-05,3.4e-05,-3.4e-05
+5.88,1.16e-05,0.0,-0.0,1.16e-05,-1.16e-05
+
+#: CENTRALITIES [PCT],40-80
+#: SQRT(S) [GeV],200.0
+$p_T$ [GeV/c],$d^2N/(N_{ev}2\pi p_Tdp_Tdy)$ [(GeV/c)$^{-2}$],stat +,stat -,sys +,sys -
+0.315,0.00798,0.00177,-0.00177,0.0011,-0.0011
+0.968,0.0067,0.00144,-0.00144,0.00087,-0.00087
+1.35,0.00449,0.0007,-0.0007,0.00051,-0.00051
+1.89,0.000942,0.000304,-0.000304,0.000106,-0.000106
+2.56,0.00045,0.000118,-0.000118,5.2e-05,-5.2e-05
+3.75,5.54e-05,1.17e-05,-1.17e-05,6.1e-06,-6.1e-06
+5.88,2e-06,5.8e-07,-5.8e-07,2.8e-07,-2.8e-07
+

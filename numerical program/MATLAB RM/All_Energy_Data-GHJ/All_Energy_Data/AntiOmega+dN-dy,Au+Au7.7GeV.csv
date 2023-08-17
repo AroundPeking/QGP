@@ -1,0 +1,11 @@
+#: table_doi: 10.17182/hepdata.94313.v1/t223
+#: name: AntiOmega+ dN/dy, Au+Au 7.7 GeV
+#: description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+#: data_file: fig17_omegabar_auau7.yaml
+#: keyword reactions: Au+Au
+#: keyword observables: AntiOmega+ dN/dy
+#: keyword cmenergies: 7.7
+#: particles,AntiOmega+
+<Npart>,dN/dy,stat +,stat -,sys +,sys -
+153.8,0.0075,0.0013,-0.0013,0.0008,-0.0008
+

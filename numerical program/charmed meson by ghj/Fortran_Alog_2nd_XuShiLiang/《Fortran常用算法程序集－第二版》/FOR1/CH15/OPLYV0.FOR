@@ -1,0 +1,12 @@
+
+	DOUBLE PRECISION A(7),X(6),OPLYV,Y
+	DATA A/-20.0,7.0,-7.0,1.0,3.0,-5.0,2.0/
+	DATA X/0.9,-0.9,1.1,-1.1,1.3,-1.3/
+	DO 10 I=1,6
+	  Y=OPLYV(A,7,X(I))
+	  WRITE(*,100) I,X(I),I,Y
+10	CONTINUE
+100	FORMAT(1X,'X(',I2,')=',F5.2,5X,'P(',I2,')=',D13.6)
+	END
+
+

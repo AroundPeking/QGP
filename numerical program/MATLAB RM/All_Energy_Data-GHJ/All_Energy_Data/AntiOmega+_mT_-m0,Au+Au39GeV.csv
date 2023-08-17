@@ -1,0 +1,15 @@
+#: table_doi: 10.17182/hepdata.94313.v1/t215
+#: name: AntiOmega+ <mT>-m0, Au+Au 39 GeV
+#: description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+#: data_file: fig15_omegabar_auau39.yaml
+#: keyword reactions: Au+Au
+#: keyword observables: AntiOmega+ <mT>-m0
+#: keyword cmenergies: 39
+#: particles,AntiOmega+
+<Npart>,<mT>-m0 [GeV^2/c^2],stat +,stat -,sys +,sys -
+20.0,0.3023,0.0179,-0.0179,0.0037,-0.0037
+59.2,0.3417,0.0075,-0.0075,0.0068,-0.0068
+137.0,0.3574,0.0045,-0.0045,0.0115,-0.0115
+229.8,0.3646,0.0055,-0.0055,0.0157,-0.0157
+317.3,0.373,0.0058,-0.0058,0.0226,-0.0226
+

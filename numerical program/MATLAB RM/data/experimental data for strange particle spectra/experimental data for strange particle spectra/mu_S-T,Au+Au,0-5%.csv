@@ -1,0 +1,14 @@
+#: table_doi: 10.17182/hepdata.94313.v1/t280
+#: name: mu_S/T, Au+Au, 0-5%
+#: description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+#: data_file: fig26_auau_muST_cent6.yaml
+#: keyword reactions: Au+Au
+#: keyword observables: mu_S/T
+#: mu_type/T,mu_S/T
+sqrt(s_NN) [GeV],mu_B/T or mu_S/T,stat +,stat -
+7.7,0.751,0.047,-0.047
+11.5,0.509,0.028,-0.028
+19.6,0.296,0.018,-0.018
+27,0.243,0.015,-0.015
+39,0.186,0.016,-0.016
+
